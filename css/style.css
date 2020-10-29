@@ -25,7 +25,7 @@ body {
   grid-template-rows: repeat(25, 1fr);
   grid-template-columns: repeat(25, 1fr);
   justify-content: center;
-  border: 10px solid #495A4C;
+  border: 8px solid #495A4C;
 }
 
 .snake {

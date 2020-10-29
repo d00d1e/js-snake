@@ -1,0 +1,43 @@
+/* 
+  #E0F8D0
+  #88BF70
+  #346856
+  #022D00
+  #091921 
+*/
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+#game-board {
+  background-color: #86A087;
+  height: 95vmin;
+  width: 100vmin;
+  display: grid;
+  grid-template-rows: repeat(25, 1fr);
+  grid-template-columns: repeat(25, 1fr);
+  justify-content: center;
+  border: 10px solid #495A4C;
+}
+
+.snake {
+  background: #495A4C;
+  border: 0.05vmin solid #86A087;
+}
+
+.food {
+  background: #86A087;
+  border: .35vmin solid #495A4C;
+  transform: rotate(45deg);
+  width: 1vmin;
+  height: 1vmin;
+}
+

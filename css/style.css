@@ -1,9 +1,9 @@
-/* 
+/*
   #E0F8D0
   #88BF70
   #346856
   #022D00
-  #091921 
+  #091921
 */
 
 body {
@@ -18,26 +18,26 @@ body {
 }
 
 #game-board {
-  background-color: #86A087;
+  background-color: #86a087;
   height: 95vmin;
   width: 100vmin;
   display: grid;
   grid-template-rows: repeat(25, 1fr);
   grid-template-columns: repeat(25, 1fr);
   justify-content: center;
-  border: 8px solid #495A4C;
+  border: 8px solid #495a4c;
 }
 
 .snake {
-  background: #495A4C;
-  border: 0.05vmin solid #86A087;
+  background: #495a4c;
+  border: 0.05vmin solid #86a087;
 }
 
 .food {
-  background: #86A087;
-  border: .35vmin solid #495A4C;
+  background: #86a087;
+  border: 0.35vmin solid #495a4c;
   transform: rotate(45deg);
   width: 1vmin;
   height: 1vmin;
+  margin: auto;
 }
-
